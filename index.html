@@ -50,7 +50,7 @@
 				<label for="email">Enter Email:</label>
 					<input type="text" id="email" class="form-control">
 				<br>
-				<button class="btn btn-dark" onclick="received1(event)">Return Personal Info</button>
+				<button class="btn btn-dark" onclick="received(event)">Return Personal Info</button>
 			</form>
 		</details>
 	<br><br>
@@ -99,7 +99,7 @@
 	<script>
 
 	// function to call when you click "Return Personal Info"
-		function received1(){
+		function received(){
 			event.preventDefault();
 			var name= document.getElementById("name").value;
 			window.alert("Thank you for answering, " + name);
